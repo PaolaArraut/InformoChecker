@@ -1,0 +1,24 @@
+{
+  "name": "informochecker",
+  "version": "1.0.0",
+  "description": "KnightHacks2025",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaolaArraut/InformoChecker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaolaArraut/InformoChecker/issues"
+  },
+  "homepage": "https://github.com/PaolaArraut/InformoChecker#readme",
+  "dependencies": {
+    "@google/genai": "^1.27.0",
+    "node-fetch": "^3.3.2"
+  }
+}
