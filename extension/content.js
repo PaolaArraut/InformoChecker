@@ -1,0 +1,1 @@
+console.log('InformoChecker content script loaded');
