@@ -6,11 +6,7 @@
   "permissions": ["activeTab", "scripting"],
   "action": {
     "default_popup": "popup.html",
-    "default_icon": {
-      "16": "assets/icon16.png",
-      "48": "assets/icon48.png",
-      "128": "assets/icon128.png"
-    }
+    "default_icon": "icon.png"
   },
   "content_scripts": [
     {
@@ -18,5 +14,10 @@
       "js": ["content.js"]
     }
   ],
-  "host_permissions": ["<all_urls>"]
+  "host_permissions": ["<all_urls>"],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
 }
